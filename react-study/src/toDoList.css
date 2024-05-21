@@ -1,0 +1,82 @@
+*{
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(180deg, #487eb0, #ffffff);
+  min-height: 100vh;
+}
+
+.container{
+  max-width: 600px;
+  margin: auto;
+  /* padding: 20px; */
+}
+
+.inputData{
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 5%;
+  padding: 0.5%;
+}
+
+h3{
+  margin: 30px 0;
+}
+.task{
+  width:100%;
+  background: rgba(255,255,255,0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.task i{
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.done .task{
+  background: rgba(0,0,0,0.5);
+  color : #fff;
+}
+
+#test {
+  background-color: blue;
+}
+/* .area2 {
+  width: 250px;
+} */
+.area1 {
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.area2 ul li {
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 650px;
+  margin: auto;
+  /* padding: 20px; */
+}
+.test1 {
+  display: inline-block;
+}
+.test2 {
+  display: inline-block;
+}
+.completbtn {
+  display: none;
+}
+
+.area2 ul li.modify .modifyBtn {display: none;}
+.area2 ul li.modify .completbtn {display: inline-block;}
+.area2 ul li.modify {}
